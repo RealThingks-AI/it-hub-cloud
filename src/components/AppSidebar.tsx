@@ -15,26 +15,6 @@ const items = [{
   icon: LayoutDashboard,
   roles: ["employee", "tech_lead", "management", "admin"]
 }, {
-  title: "Skills",
-  url: "/skills",
-  icon: BookOpen,
-  roles: ["employee", "tech_lead", "management", "admin"]
-}, {
-  title: "Approvals",
-  url: "/approvals",
-  icon: CheckCircle,
-  roles: ["tech_lead", "management", "admin"]
-}, {
-  title: "Skill Explorer",
-  url: "/skill-explorer",
-  icon: Search,
-  roles: ["tech_lead", "management", "admin"]
-}, {
-  title: "Projects",
-  url: "/projects",
-  icon: FolderKanban,
-  roles: ["employee", "tech_lead", "management", "admin"]
-}, {
   title: "Reports",
   url: "/reports",
   icon: FileBarChart,
