@@ -9,10 +9,6 @@ import { ImpersonationProvider } from "@/contexts/ImpersonationContext";
 import { Layout } from "@/components/Layout";
 import { ProtectedRoute } from "@/components/common/ProtectedRoute";
 import Dashboard from "./pages/dashboard";
-import Skills from "./pages/skills";
-import Approvals from "./pages/approvals";
-import SkillExplorer from "./pages/skill-explorer";
-import Projects from "./pages/projects";
 import Reports from "./pages/reports";
 import Admin from "./pages/admin";
 import Profile from "./pages/Profile";
@@ -44,10 +40,6 @@ const App = () => (
                   <Routes>
                     <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
                     <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-                    <Route path="/skills" element={<ProtectedRoute><Skills /></ProtectedRoute>} />
-                    <Route path="/approvals" element={<ProtectedRoute><Approvals /></ProtectedRoute>} />
-                    <Route path="/skill-explorer" element={<ProtectedRoute><SkillExplorer /></ProtectedRoute>} />
-                    <Route path="/projects" element={<ProtectedRoute><Projects /></ProtectedRoute>} />
                     <Route path="/reports" element={<ProtectedRoute><Reports /></ProtectedRoute>} />
                     <Route path="/admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
                     <Route path="/tickets" element={<ProtectedRoute><Tickets /></ProtectedRoute>} />
